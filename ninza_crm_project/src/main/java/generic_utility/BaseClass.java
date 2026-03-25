@@ -21,14 +21,17 @@ public class BaseClass {
 	public MyWebDriverUtility mwdu = null;
 
 	@BeforeClass
-	public void configBeforeClass() throws IOException {
+	public void configBeforeClass() throws IOException, InterruptedException {
 		this.fu = new FileUtility();
 		String BROWSER = fu.getDataFromPropertiesFile("brow");
 //		this.driver = MyWebDriverUtility.browserDriver(BROWSER);
-		
+
 		System.setProperty("webdriver.edge.driver", "./resources/msedgedriver.exe");
+
+		Thread.sleep(3000);
+
 		driver = new EdgeDriver();
-		
+
 		sdriver = this.driver;
 		System.out.println("Browser opened");
 	}
