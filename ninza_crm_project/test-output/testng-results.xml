@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-25T15:36:37 IST" name="Suite" finished-at="2026-03-25T15:38:00 IST" duration-ms="83529">
+    <groups>
+    </groups>
+    <test started-at="2026-03-25T15:36:37 IST" name="Test" finished-at="2026-03-25T15:38:00 IST" duration-ms="83529">
+      <class name="Modules.QuotesTest">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:Modules.QuotesTest@4b2bac3f]" started-at="2026-03-25T15:37:22 IST" name="configBeforeClass" finished-at="2026-03-25T15:37:23 IST" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Modules.QuotesTest@4b2bac3f]" started-at="2026-03-25T15:37:23 IST" name="login" finished-at="2026-03-25T15:37:25 IST" duration-ms="2241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createQuoteTest()[pri:0, instance:Modules.QuotesTest@4b2bac3f]" started-at="2026-03-25T15:37:25 IST" name="createQuoteTest" finished-at="2026-03-25T15:37:30 IST" duration-ms="5646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createQuoteTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Modules.QuotesTest@4b2bac3f]" started-at="2026-03-25T15:37:30 IST" name="logout" finished-at="2026-03-25T15:37:31 IST" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Modules.QuotesTest@4b2bac3f]" started-at="2026-03-25T15:37:31 IST" name="closeBrowser" finished-at="2026-03-25T15:37:31 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Modules.QuotesTest -->
+      <class name="Modules.PurchaseOrdersTest">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:Modules.PurchaseOrdersTest@4e08711f]" started-at="2026-03-25T15:37:31 IST" name="configBeforeClass" finished-at="2026-03-25T15:37:32 IST" duration-ms="885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Modules.PurchaseOrdersTest@4e08711f]" started-at="2026-03-25T15:37:32 IST" name="login" finished-at="2026-03-25T15:37:34 IST" duration-ms="2311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createPurchaseOrderTest()[pri:0, instance:Modules.PurchaseOrdersTest@4e08711f]" started-at="2026-03-25T15:37:34 IST" name="createPurchaseOrderTest" finished-at="2026-03-25T15:37:39 IST" duration-ms="4555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPurchaseOrderTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Modules.PurchaseOrdersTest@4e08711f]" started-at="2026-03-25T15:37:39 IST" name="logout" finished-at="2026-03-25T15:37:39 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Modules.PurchaseOrdersTest@4e08711f]" started-at="2026-03-25T15:37:39 IST" name="closeBrowser" finished-at="2026-03-25T15:37:40 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Modules.PurchaseOrdersTest -->
+      <class name="Modules.SalesOrdersTest">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:Modules.SalesOrdersTest@bcec361]" started-at="2026-03-25T15:37:40 IST" name="configBeforeClass" finished-at="2026-03-25T15:37:40 IST" duration-ms="866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Modules.SalesOrdersTest@bcec361]" started-at="2026-03-25T15:37:40 IST" name="login" finished-at="2026-03-25T15:37:43 IST" duration-ms="2284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createSalesOrderTest()[pri:0, instance:Modules.SalesOrdersTest@bcec361]" started-at="2026-03-25T15:37:43 IST" name="createSalesOrderTest" finished-at="2026-03-25T15:37:49 IST" duration-ms="6451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSalesOrderTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Modules.SalesOrdersTest@bcec361]" started-at="2026-03-25T15:37:49 IST" name="logout" finished-at="2026-03-25T15:37:50 IST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Modules.SalesOrdersTest@bcec361]" started-at="2026-03-25T15:37:50 IST" name="closeBrowser" finished-at="2026-03-25T15:37:50 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Modules.SalesOrdersTest -->
+      <class name="Modules.LeadsTest">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:Modules.LeadsTest@3bf7ca37]" started-at="2026-03-25T15:36:57 IST" name="configBeforeClass" finished-at="2026-03-25T15:36:58 IST" duration-ms="884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Modules.LeadsTest@3bf7ca37]" started-at="2026-03-25T15:36:58 IST" name="login" finished-at="2026-03-25T15:37:00 IST" duration-ms="2484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createLeadTest()[pri:0, instance:Modules.LeadsTest@3bf7ca37]" started-at="2026-03-25T15:37:00 IST" name="createLeadTest" finished-at="2026-03-25T15:37:04 IST" duration-ms="3515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeadTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Modules.LeadsTest@3bf7ca37]" started-at="2026-03-25T15:37:04 IST" name="logout" finished-at="2026-03-25T15:37:06 IST" duration-ms="2265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Modules.LeadsTest@3bf7ca37]" started-at="2026-03-25T15:37:06 IST" name="closeBrowser" finished-at="2026-03-25T15:37:06 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Modules.LeadsTest -->
+      <class name="Modules.ContactsTest">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:Modules.ContactsTest@3c9754d8]" started-at="2026-03-25T15:36:48 IST" name="configBeforeClass" finished-at="2026-03-25T15:36:49 IST" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Modules.ContactsTest@3c9754d8]" started-at="2026-03-25T15:36:49 IST" name="login" finished-at="2026-03-25T15:36:51 IST" duration-ms="2351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createContactTest()[pri:0, instance:Modules.ContactsTest@3c9754d8]" started-at="2026-03-25T15:36:51 IST" name="createContactTest" finished-at="2026-03-25T15:36:54 IST" duration-ms="3088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Modules.ContactsTest@3c9754d8]" started-at="2026-03-25T15:36:54 IST" name="logout" finished-at="2026-03-25T15:36:56 IST" duration-ms="2148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Modules.ContactsTest@3c9754d8]" started-at="2026-03-25T15:36:56 IST" name="closeBrowser" finished-at="2026-03-25T15:36:57 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Modules.ContactsTest -->
+      <class name="Modules.CampaignsTest">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:Modules.CampaignsTest@1a677343]" started-at="2026-03-25T15:36:37 IST" name="configBeforeClass" finished-at="2026-03-25T15:36:40 IST" duration-ms="3249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Modules.CampaignsTest@1a677343]" started-at="2026-03-25T15:36:40 IST" name="login" finished-at="2026-03-25T15:36:43 IST" duration-ms="2525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCampaignTest()[pri:0, instance:Modules.CampaignsTest@1a677343]" started-at="2026-03-25T15:36:43 IST" name="createCampaignTest" finished-at="2026-03-25T15:36:46 IST" duration-ms="2971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Modules.CampaignsTest@1a677343]" started-at="2026-03-25T15:36:46 IST" name="logout" finished-at="2026-03-25T15:36:48 IST" duration-ms="2022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Modules.CampaignsTest@1a677343]" started-at="2026-03-25T15:36:48 IST" name="closeBrowser" finished-at="2026-03-25T15:36:48 IST" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Modules.CampaignsTest -->
+      <class name="Modules.InvoicesTest">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:Modules.InvoicesTest@26794848]" started-at="2026-03-25T15:37:50 IST" name="configBeforeClass" finished-at="2026-03-25T15:37:51 IST" duration-ms="940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Modules.InvoicesTest@26794848]" started-at="2026-03-25T15:37:51 IST" name="login" finished-at="2026-03-25T15:37:53 IST" duration-ms="2294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createInvoiceTest()[pri:0, instance:Modules.InvoicesTest@26794848]" started-at="2026-03-25T15:37:53 IST" name="createInvoiceTest" finished-at="2026-03-25T15:38:00 IST" duration-ms="6284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInvoiceTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Modules.InvoicesTest@26794848]" started-at="2026-03-25T15:38:00 IST" name="logout" finished-at="2026-03-25T15:38:00 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Modules.InvoicesTest@26794848]" started-at="2026-03-25T15:38:00 IST" name="closeBrowser" finished-at="2026-03-25T15:38:00 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Modules.InvoicesTest -->
+      <class name="Modules.ProductsTest">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:Modules.ProductsTest@4d1c00d0]" started-at="2026-03-25T15:37:15 IST" name="configBeforeClass" finished-at="2026-03-25T15:37:16 IST" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Modules.ProductsTest@4d1c00d0]" started-at="2026-03-25T15:37:16 IST" name="login" finished-at="2026-03-25T15:37:19 IST" duration-ms="2255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createProductTest()[pri:0, instance:Modules.ProductsTest@4d1c00d0]" started-at="2026-03-25T15:37:19 IST" name="createProductTest" finished-at="2026-03-25T15:37:21 IST" duration-ms="2110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Modules.ProductsTest@4d1c00d0]" started-at="2026-03-25T15:37:21 IST" name="logout" finished-at="2026-03-25T15:37:21 IST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Modules.ProductsTest@4d1c00d0]" started-at="2026-03-25T15:37:21 IST" name="closeBrowser" finished-at="2026-03-25T15:37:22 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Modules.ProductsTest -->
+      <class name="Modules.OpportunitiesTest">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:Modules.OpportunitiesTest@79079097]" started-at="2026-03-25T15:37:06 IST" name="configBeforeClass" finished-at="2026-03-25T15:37:07 IST" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Modules.OpportunitiesTest@79079097]" started-at="2026-03-25T15:37:07 IST" name="login" finished-at="2026-03-25T15:37:10 IST" duration-ms="2379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createOpportunityTest()[pri:0, instance:Modules.OpportunitiesTest@79079097]" started-at="2026-03-25T15:37:10 IST" name="createOpportunityTest" finished-at="2026-03-25T15:37:13 IST" duration-ms="3163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOpportunityTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Modules.OpportunitiesTest@79079097]" started-at="2026-03-25T15:37:13 IST" name="logout" finished-at="2026-03-25T15:37:15 IST" duration-ms="2217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Modules.OpportunitiesTest@79079097]" started-at="2026-03-25T15:37:15 IST" name="closeBrowser" finished-at="2026-03-25T15:37:15 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Modules.OpportunitiesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
